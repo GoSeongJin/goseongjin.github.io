@@ -28,3 +28,5 @@ twitter_username: 고성진
 github_username:  고성진
 
 remote_theme: pages-themes/hacker@v0.2.0
+plugins: 
+- jekyll-remote_theme
