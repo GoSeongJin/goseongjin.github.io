@@ -4,7 +4,7 @@
   <id>/</id>
   <title>고성진</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-08-06T12:49:29+08:00</updated>
+  <updated>2025-08-06T12:52:52+08:00</updated>
   <author>
     <name>고성진</name>
     <uri>/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>가고 싶은 회사 조사 - KAI</title>
-    <link href="/posts/kai-recruitment/" rel="alternate" type="text/html" title="가고 싶은 회사 조사 - KAI" />
+    <title>회사 조사 - KAI</title>
+    <link href="/posts/kai-recruitment/" rel="alternate" type="text/html" title="회사 조사 - KAI" />
     <published>2025-08-06T13:00:00+08:00</published>
   
     <updated>2025-08-06T13:00:00+08:00</updated>
