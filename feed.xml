@@ -4,7 +4,7 @@
   <id>/</id>
   <title>고성진</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-08-06T12:21:31+08:00</updated>
+  <updated>2025-08-06T12:49:29+08:00</updated>
   <author>
     <name>고성진</name>
     <uri>/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>가고 싶은 회사 조사 - KAI</title>
+    <link href="/posts/kai-recruitment/" rel="alternate" type="text/html" title="가고 싶은 회사 조사 - KAI" />
+    <published>2025-08-06T13:00:00+08:00</published>
+  
+    <updated>2025-08-06T13:00:00+08:00</updated>
+  
+    <id>/posts/kai-recruitment/</id>
+    <content type="text/html" src="/posts/kai-recruitment/" />
+    <author>
+      <name>고성진</name>
+    </author>
+
+  
+    
+    <category term="진로탐색" />
+    
+  
+
+  <summary>✈️ 한국항공우주산업(KAI) 채용 정보 조사  한국항공우주산업(KAI)은 대한민국을 대표하는 항공기 제조 및 소프트웨어 개발 기업입니다. KF-21, FA-50, T-50, LAH, LCH 등의 국산 항공기 개발을 주도하며, 항공전자 SW, AI 조종사, 감항 인증 기반 시스템 개발 등 폭넓은 기술을 다루고 있습니다.    🧠 AI/SW 연구실 주요 업무     수출기용 소프트웨어 개발 (KF-21, FA-50)   전투기용 AI Pilot 및 Control Tower 시스템 개발   SIL/STE 기반 통합시험환경 개발   유무인 전투기용 AI 임무 소프트웨어 설계   AI 기반 자율임무 수행 기능 개발     🛠️ 필요 역량 및 요구 기술  ✅ 소프트웨어 및 시스템     RTOS: ARINC 6...</summary>
+
+  </entry>
 
   
   <entry>

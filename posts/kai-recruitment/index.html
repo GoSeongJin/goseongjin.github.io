@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="가고 싶은 회사 조사 - KAI" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="/tags/" />
-<meta property="og:url" content="/tags/" />
+<meta name="description" content="✈️ 한국항공우주산업(KAI) 채용 정보 조사" />
+<meta property="og:description" content="✈️ 한국항공우주산업(KAI) 채용 정보 조사" />
+<link rel="canonical" href="/posts/kai-recruitment/" />
+<meta property="og:url" content="/posts/kai-recruitment/" />
 <meta property="og:site_name" content="고성진" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-06T12:49:29+08:00" />
+<meta property="article:published_time" content="2025-08-06T13:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tags" />
+<meta property="twitter:title" content="가고 싶은 회사 조사 - KAI" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-06T12:49:29+08:00","datePublished":"2025-08-06T12:49:29+08:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Tags","mainEntityOfPage":{"@type":"WebPage","@id":"/tags/"},"url":"/tags/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-06T13:00:00+08:00","datePublished":"2025-08-06T13:00:00+08:00","description":"✈️ 한국항공우주산업(KAI) 채용 정보 조사","headline":"가고 싶은 회사 조사 - KAI","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/kai-recruitment/"},"url":"/posts/kai-recruitment/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Tags | 고성진
+  <title>가고 싶은 회사 조사 - KAI | 고성진
   </title>
 
   <!--
@@ -111,9 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
   
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -129,6 +136,13 @@
 <!-- layout specified -->
 
 
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
 
 
 
@@ -150,9 +164,65 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -160,11 +230,15 @@
 
 
 
-<script defer src="/assets/js/dist/commons.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -208,7 +282,7 @@
         </li>
         <!-- .nav-item -->
       
-        <li class="nav-item active">
+        <li class="nav-item">
           <a href="/tags/" class="nav-link">
             <i class="fa-fw fas fa-tags"></i>
             
@@ -363,8 +437,10 @@
           
         
           
+        
+          
             
-              <span>Tags</span>
+              <span>가고 싶은 회사 조사 - KAI</span>
             
 
           
@@ -378,7 +454,7 @@
     </button>
 
     <div id="topbar-title">
-      Tags
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -404,126 +480,537 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              
+              <!-- Refactor the HTML structure -->
 
 
 
-<article class="px-1">
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
   
     
     
-    <h1 class="dynamic-title">
-      Tags
-    </h1>
-    <div class="content">
-      <div id="tags" class="d-flex flex-wrap mx-xl-2">
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
   
   
 
   
 
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>가고 싶은 회사 조사 - KAI</h1>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
   
-    <div>
-      <a class="tag" href="/tags/ai/">
-        AI<span class="text-muted">1</span>
-      </a>
+  data-ts="1754456400"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Aug  6, 2025
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="https://github.com/goseongjin">고성진</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="650 words"
+>
+  <em>3 min</em> read</span>
+
+        </div>
+      </div>
     </div>
+  </header>
+
   
-    <div>
-      <a class="tag" href="/tags/kai/">
-        KAI<span class="text-muted">1</span>
-      </a>
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">가고 싶은 회사 조사 - KAI</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
     </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">가고 싶은 회사 조사 - KAI</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
   
-    <div>
-      <a class="tag" href="/tags/language/">
-        language<span class="text-muted">1</span>
+
+  <div class="content">
+    <h2 id="️-한국항공우주산업kai-채용-정보-조사"><span class="me-2">✈️ 한국항공우주산업(KAI) 채용 정보 조사</span><a href="#️-한국항공우주산업kai-채용-정보-조사" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>한국항공우주산업(KAI)은 대한민국을 대표하는 항공기 제조 및 소프트웨어 개발 기업입니다.<br />
+KF-21, FA-50, T-50, LAH, LCH 등의 국산 항공기 개발을 주도하며, 항공전자 SW, AI 조종사, 감항 인증 기반 시스템 개발 등 폭넓은 기술을 다루고 있습니다.</p>
+
+<hr />
+
+<h3 id="-aisw-연구실-주요-업무"><span class="me-2">🧠 <strong>AI/SW 연구실 주요 업무</strong></span><a href="#-aisw-연구실-주요-업무" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li>수출기용 소프트웨어 개발 (KF-21, FA-50)</li>
+  <li>전투기용 AI Pilot 및 Control Tower 시스템 개발</li>
+  <li>SIL/STE 기반 통합시험환경 개발</li>
+  <li>유무인 전투기용 AI 임무 소프트웨어 설계</li>
+  <li>AI 기반 자율임무 수행 기능 개발</li>
+</ul>
+
+<hr />
+
+<h3 id="️-필요-역량-및-요구-기술"><span class="me-2">🛠️ <strong>필요 역량 및 요구 기술</strong></span><a href="#️-필요-역량-및-요구-기술" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<h4 id="-소프트웨어-및-시스템"><span class="me-2">✅ 소프트웨어 및 시스템</span><a href="#-소프트웨어-및-시스템" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>RTOS: ARINC 653, BSP, Driver</li>
+  <li>통신: MIL-STD-1553, Ethernet</li>
+  <li>소프트웨어 아키텍처 및 구조 설계</li>
+  <li>정적 분석, 동적 분석, LDRA 도구 사용</li>
+</ul>
+
+<h4 id="-프로그래밍-및-모델링"><span class="me-2">✅ 프로그래밍 및 모델링</span><a href="#-프로그래밍-및-모델링" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>언어: C, C++, Python</li>
+  <li>모델링: UML, Design Pattern, MBSE</li>
+  <li>그래픽: OpenGL, SCADE</li>
+</ul>
+
+<h4 id="-인증-및-품질관리"><span class="me-2">✅ 인증 및 품질관리</span><a href="#-인증-및-품질관리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ul>
+  <li>감항 인증: DO-178B, DO-178C</li>
+  <li>프로세스: CMMI, SP 등</li>
+  <li>멀티코어 및 VxWorks653 등 항공기 탑재용 플랫폼</li>
+</ul>
+
+<hr />
+
+<h3 id="-적용-기술-요약"><span class="me-2">🧩 <strong>적용 기술 요약</strong></span><a href="#-적용-기술-요약" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>분야</th>
+      <th>주요 기술 및 표준</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>인증</td>
+      <td>DO-178C, 감항 인증, CMMI</td>
+    </tr>
+    <tr>
+      <td>플랫폼</td>
+      <td>VxWorks653, Multi-core</td>
+    </tr>
+    <tr>
+      <td>언어/프레임워크</td>
+      <td>C, C++, Python, OpenGL, SCADE</td>
+    </tr>
+    <tr>
+      <td>개발환경</td>
+      <td>Visual Studio, SCADE, UML 도구 등</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<hr />
+
+<h3 id="-채용-시-자주-나오는-질문-예시-설명회-참고"><span class="me-2">📝 <strong>채용 시 자주 나오는 질문 예시 (설명회 참고)</strong></span><a href="#-채용-시-자주-나오는-질문-예시-설명회-참고" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li>회사의 비전 달성에 기여할 수 있는 나의 역할은?</li>
+  <li>팀원들과 협업하거나 갈등 상황을 조율했던 경험은?</li>
+  <li>기술적 실패를 극복했던 사례는?</li>
+  <li>조직의 잘못된 방향 지시를 어떻게 다뤘는가?</li>
+  <li>성과가 좋지 않았을 때 어떻게 대응했는가?</li>
+</ul>
+
+<blockquote>
+  <p>☑️ 실제 면접 시 위와 같은 <strong>직무 + 인성 복합형 질문</strong>이 출제된다고 합니다.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-느낀-점"><span class="me-2">💬 느낀 점</span><a href="#-느낀-점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>KAI는 단순한 항공기 개발 기업을 넘어, AI, 감항 인증, 실시간 운영체제 등 <strong>고난도 융합 기술이 집약된 환경</strong>을 제공합니다.<br />
+이러한 기업에 입사하기 위해서는, <strong>프로그래밍 역량뿐 아니라 시스템/인증/도메인 지식까지 갖춘 폭넓은 역량 개발이 필요</strong>하다고 느꼈습니다.</p>
+
+<hr />
+
+<blockquote>
+  <p>※ 자료 출처: 2025 하계 워크숍 지역혁신랩 (발표자: KAI)</p>
+</blockquote>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/%EC%A7%84%EB%A1%9C%ED%83%90%EC%83%89/">진로탐색</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/kai/"
+            class="post-tag no-text-decoration"
+          >KAI</a>
+        
+          <a
+            href="/tags/%EC%B1%84%EC%9A%A9/"
+            class="post-tag no-text-decoration"
+          >채용</a>
+        
+          <a
+            href="/tags/%ED%95%AD%EA%B3%B5%EC%9A%B0%EC%A3%BC/"
+            class="post-tag no-text-decoration"
+          >항공우주</a>
+        
+          <a
+            href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/"
+            class="post-tag no-text-decoration"
+          >개발자</a>
+        
+          <a
+            href="/tags/%EC%A7%84%EB%A1%9C/"
+            class="post-tag no-text-decoration"
+          >진로</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=%EA%B0%80%EA%B3%A0%20%EC%8B%B6%EC%9D%80%20%ED%9A%8C%EC%82%AC%20%EC%A1%B0%EC%82%AC%20-%20KAI%20-%20%EA%B3%A0%EC%84%B1%EC%A7%84&url=%2Fposts%2Fkai-recruitment%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/">
-        개발자<span class="text-muted">1</span>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EA%B0%80%EA%B3%A0%20%EC%8B%B6%EC%9D%80%20%ED%9A%8C%EC%82%AC%20%EC%A1%B0%EC%82%AC%20-%20KAI%20-%20%EA%B3%A0%EC%84%B1%EC%A7%84&u=%2Fposts%2Fkai-recruitment%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
       </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EA%B2%B0%ED%95%A8/">
-        결함<span class="text-muted">1</span>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=%2Fposts%2Fkai-recruitment%2F&text=%EA%B0%80%EA%B3%A0%20%EC%8B%B6%EC%9D%80%20%ED%9A%8C%EC%82%AC%20%EC%A1%B0%EC%82%AC%20-%20KAI%20-%20%EA%B3%A0%EC%84%B1%EC%A7%84" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
       </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EA%B3%B5%EB%B6%80%EB%85%B8%ED%8A%B8/">
-        공부노트<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EA%B8%B0%EC%B4%88/">
-        기초<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/">
-        블로그<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%8B%9C%EC%9E%91/">
-        시작<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">
-        인공지능<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%AC/">
-        자연어처리<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%A0%95%EC%A0%81-%EB%B6%84%EC%84%9D/">
-        정적 분석<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%A7%84%EB%A1%9C/">
-        진로<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%EC%B1%84%EC%9A%A9/">
-        채용<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/">
-        테스트<span class="text-muted">1</span>
-      </a>
-    </div>
-  
-    <div>
-      <a class="tag" href="/tags/%ED%95%AD%EA%B3%B5%EC%9A%B0%EC%A3%BC/">
-        항공우주<span class="text-muted">1</span>
-      </a>
-    </div>
-  
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
 
     </div>
-  
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
+
 
             
           </main>
@@ -1054,12 +1541,94 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/sw-testing/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>소프트웨어 분석 및 시험: 개요</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -1612,6 +2181,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
